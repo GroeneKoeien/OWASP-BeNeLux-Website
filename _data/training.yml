@@ -1,0 +1,194 @@
+# 29/11/2024
+
+- image   : georges_bolssens.jpg
+  day     : 29/11/2024
+  time    : 09:00 - 17:00
+  name    : Georges Bolssens
+  bio     : >-
+            Georges Bolssens embarked on his coding journey in the early 1990s and delved
+            into the realm of application security in 2017. With an inherent passion for teaching,
+            Georges is not only a seasoned developer but also an adept communicator. </p>
+            <p>His unique talent lies in simplifying intricate subjects through relatable analogies,
+            making him an engaging and effective speaker. Having undertaken numerous consulting
+            assignments among which he can list vulnerability scanning and penetration testing 
+            as a "lone wolf", taking on the role of Security Champion in a Medical 
+            Device development team and acting as internal Application Security 
+            Coordinator at a Big4-consultancy firm. Throughout his career and in all 
+            these assignments, Georges has assumed the role of cybersecurity educator 
+            for a diverse spectrum of professionals. </p>
+            <p>His guidance has illuminated the path for individuals ranging from legal 
+            experts to ethical hackers and all those in between. </p>
+            <p>In his capacity as an Application- and Product Security Consultant at Toreon, 
+            Georges has been instrumental in assisting numerous clients in constructing 
+            comprehensive threat models for their digital assets.  </p>
+            <p>His expertise and commitment led threat-modeling authorities Sebastien 
+            Deleersnyder and Steven Wierckx to appointment as a co-instructor for 
+            Toreon's distinguished "Advanced Whiteboard Hacking – a.k.a. Hands-on 
+            Threat Modeling" course. </p>
+            <p>Notably, he taught this course at the esteemed "BlackHat USA" and "OWASP BeNeLux" 
+            conferences in 2023 and "Troopers" in Germany in 2024.
+  title   : Scaling Threat Modeling - Building and Maintaining Effective Security Pattern Libraries
+  abstract: >-
+            Scaling a threat modeling program is essential for maintaining a strong security 
+            posture as organizations grow. </p>
+            <p>This workshop will dive into the practical aspects of creating and maintaining 
+            security pattern libraries - essential tools for any security team.</p>
+            <p>We’ll start with a quick overview of threat modeling fundamentals before moving 
+            to hands-on activities. Using well-known frameworks like MITRE ATT&CK and CAPEC, 
+            participants will learn how to adapt public security patterns to fit their own 
+            organizations' needs. </p>
+            <p>We'll also explore using tools like IriusRisk Community Edition to automate 
+            threat modeling and ensure consistent application across various security 
+            infrastructures. </p>
+            <p>By the end of the session, attendees will have the skills to build a foundational 
+            security pattern library, with a focus on key areas like data protection, 
+            authorization, API security, and logging. This workshop is perfect for security 
+            professionals looking to grow their threat modeling programs by building resilient, 
+            reusable security patterns that can scale with the evolving needs of their organization.
+  feed    :
+  url     : 
+  linkedin: https://www.linkedin.com/in/georges-bolssens/
+  x_handle:
+  reqs    : >-
+            <ul>
+            <li>Hardware: A laptop with internet connectivity and a (modern) web browser is required 
+            to download course materials and consult the online resources. </li>
+            <li>Wetware: Basic threat modeling knowledge is highly preferred. In order to completely enjoy this advanced training, the instructor invites the registered training participants to follow an introduction training (online, around 4 hours). Details will be provided after registration.</li>
+            </ul>
+  urltag  : 
+  display : yes
+
+
+- image   : Philippe_De_Ryck.jpg
+  day     : 29/11/2024
+  time    : 09:00 - 17:00
+  name    : Philippe De Ryck
+  bio     : >-
+            Philippe De Ryck specializes in making web security accessible to developers and 
+            architects, leveraging his Ph.D. from KU Leuven to inform his comprehensive 
+            understanding of security challenges. <br />
+            As the founder of Pragmatic Web Security, he provides practical security 
+            training and consulting services to organizations worldwide. </p>
+            <p>His online course platform offers a self-paced approach to learning 
+            about security. Philippe also actively helps shape OAuth 2.0 best practices as 
+            the co-author of the best practices for browser-based apps specification. </p>
+            <p>Philippe is recognized as a Google Developer Expert, acknowledging his 
+            contributions to web application and API security. <br />
+            He also organizes SecAppDev, an annual week-long application security course in Belgium.
+  title   : Bulletproof APIs - Hands-On API Security Testing
+  abstract: >-
+            As APIs become a big part of our tech world, making sure they're secure is key. <br />
+            The 2023 version of the OWASP API Security top 10 shows us that API security needs 
+            our attention. Building secure APIs isn't easy, though. <br />
+            It needs developers and architects to really get API security, from the big 
+            picture down to the nitty-gritty details. </p>
+            <p>This workshop is here to give you the skills you need to make your APIs secure. <br />
+            We're going to think like an attacker to test APIs and like a defender to figure 
+            out the best ways to protect them. With deep-dive talks, real-world demos, 
+            fun quizzes, and hands-on labs, you'll learn how to lock down your APIs.<br />
+            <br />
+            During this hands-on training, we'll explore:
+            <ul>
+            <li>The security model of API-based web applications</li>
+            <li>Recognizing and addressing authorization failures</li>
+            <li>Understanding Broken Object Property Level Authorization (BOPLA) </li>
+            <li>Fixing Broken Object Level Authorization (BOLA)  </li>
+            <li>Testing the security of APIs that use JWTs </li>
+            <li>Best practices for making JWTs secure in modern APIs </li>
+            <li>Quizzes and labs to make learning stick </li>
+            <li>Q & A throughout the workshop to clear up any doubts </li>
+            </ul></p>
+            <p>This workshop is about more than theory. <br />
+            We're all about giving you practical security tips you can use right 
+            away as an API developer. </p>
+            <p>We dig into the root causes of API threats and how to handle them. <br />
+            We don't just skim the surface of problems and solutions - we get into 
+            the why's and how's, looking at common fixes, why some fall short, 
+            and which ones are currently the best way to go.</p>
+            <p>By the end of this workshop, you'll be up-to-speed on the best practices 
+            for API security. You'll also leave with a handy list of steps 
+            to check and boost the security of your applications.
+  feed    :
+  url     : 
+  linkedin: https://www.linkedin.com/in/PhilippeDeRyck/
+  x_handle:
+  reqs    : To participate in the lab sessions, participants need a computer with a 
+            full-featured modern browser installed (preferably Chrome).
+  urltag  : 
+  display : yes
+
+- image   : olle_e_johansson.jpg
+  day     : 29/11/2024
+  time    : 09:00 - 13:00
+  name    : Olle E. Johansson
+  bio     : >-
+            Olle E. Johansson is a consultant in the area of realtime communication 
+            and in embedded system security. He has been active in Open Source for 
+            many years as a developer, evangelist, trainer and speaker in many 
+            conferences worldwide. Olle is a member of the OWASP SBOM Forum and the 
+            OWASP CycloneDX industry working group. He is currently working on the 
+            CycloneDX Transparency Exchange API standard. Olle is currently a project 
+            leader for the Swedish DNS TAPIR project that is building Open Source 
+            software for analysing DNS resolver logs and finding bad actors. 
+  title   : The SBOM lifestyle - Managing your software in the light of the new regulation
+  abstract: >-
+            The Software Bill of Materials is at the heart of software quality. It's not 
+            only used for license compliance, but also vulnerability management and much 
+            more. Many international regulations now point to the SBOM as a critical piece 
+            of the puzzle. Attend this training with Olle E. Johansson, active in the CycloneDX 
+            project, to get an insight into SBOMs and how they are used in the software quality 
+            management process. Olle is an experienced teacher, storyteller and speaker at many 
+            conferences. He co-founded SBOMeurope.eu - a european forum for software transparency 
+            with SBOMs.<br /><br />
+            What you'll learn:
+            <ul>
+            <li>Introduction to the SBOM, Software bill of materials</li>
+            <li>SBOM and Open Source license compliance</li>
+            <li>CISA SBOM minimal requirements</li>
+            <li>SBOM in the Software Component Verification Standard (OWASP SCVS)</li>
+            <li>Creating the SBOM with scanners</li>
+            <li>The good, the bad and the ugly - where SBOMs fail</li>
+            <li>Vulnerability handling automation with SBOMs</li>
+            <li>SBOM and the EU Cyber Resilience Act</li>
+            <li>Open Source SBOM tools</li>
+            </ul>
+            <div style="font-weight: bold;">Note that this is a half-day training.</div><br />
+  feed    :
+  url     : 
+  linkedin: https://www.linkedin.com/in/ollejohansson/
+  x_handle:
+  reqs    : 
+  urltag  : 
+  display : yes
+
+- image   : martin_knobloch.png
+  day     : 29/11/2024
+  time    : 09:00 - 13:00
+  name    : Martin Knobloch
+  bio     : >-
+            Martin Knobloch, VP Security Engineering at Valtech, 
+            is a long-time security leader with more than 25 years of experience in the 
+            field of IT and +15 in Cyber security.</p>
+            <p>With a background in software development and architecture, his focus 
+            is on software security. Martin is actively involved in OWASP where he is 
+            a frequent contributor to various projects and initiatives. Martin is taking 
+            part in the organizing of local and global OWASP conferences and served more 
+            than 5 years as a member of the Board of Directors, two of them as Chairmen of 
+            the board.</p>
+            <p>During his career, Martin has been a recognized teacher, guest lecturer at 
+            various universities and invited speaker and trainer at local and international 
+            software development, testing and security conferences throughout the world.
+  title   : Web Security 101
+  abstract: >-
+            Learn the basics about web security, using OWASP tools, guides and 
+            various Kali tools.<br />
+            From what is an application risk to exploiting common vulnerabilities, 
+            from scoping an assessment to writing a security report.<br /><br />
+            <div style="font-weight: bold;">Note that this is a half-day training.</div><br />
+  feed    :
+  url     : 
+  linkedin: https://www.linkedin.com/in/martin-knobloch
+  x_handle:
+  reqs    : A laptop with admin privileges with a virtual instance or guest os running Kali Linux.
+  urltag  : 
+  display : yes

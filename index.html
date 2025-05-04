@@ -1,0 +1,74 @@
+---
+title: OWASP BeNeLux Days 2024
+layout: front
+bodyclass: front
+show_program: false
+show_trainings: false
+---
+<section class="punch">
+
+<h2>The '24 conference is over, but we will wait for you next year in Belgium</h2>
+
+<p>The slidedecks and video recordings of the talks will be made available in a few days.</p>
+
+<br />
+
+<h2>Conference day on the 28th of November (<a href="/location/">On-site only</a>)</h2>
+<p>We are thrilled to announce the following speakers:</p>
+<p><a href="/program/conference">Full Program Schedule</a></p>
+{% if site.data.conference[0].title %}
+	{% assign speakers = site.data.conference | sort: 'time' %}
+	<div class="frontpagelist">
+	<ul>
+	{% for speaker in speakers %}
+		{% if speaker.name2 %} 
+			{% capture fullname %}{{speaker.name}} and {{speaker.name2}}{% endcapture %}
+		{% else %}
+			{% capture fullname %}{{speaker.name}}{% endcapture %}
+		{% endif %}
+		{% if speaker.name and speaker.title and speaker.abstract %}
+			<li><a href="{{ site.baseurl }}/program/conference#{{fullname | replace: " ","-"}}"><img class="thumbnail" src="{{site.baseurl}}/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}}">
+				{% if speaker.image2 %}
+					<img class="thumbnail" src="{{site.baseurl}}/assets/images/conference/{{speaker.image2 | default:'owasp_logo.png'}}">
+				{% endif %}
+				{{fullname}}</a></li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+	</div>
+{% endif %}
+<br />
+<h2>Training day on the 29th of November (<a href="/location/">On-site only</a>)</h2>
+<p>We are proud to offer you one-day quality trainings by renowned trainers:</h3>
+{% if site.data.training[0].name %}
+	{% assign trainings = site.data.training | sort: 'time' %}
+	<div class="frontpagelist">
+	<ul>
+	{% for training in trainings %}
+		{% if training.display and training.title and training.name %}
+		<li><a href="/program/training#{{training.name | replace: " ","-"}}"><img class="thumbnail" src="{{site.baseurl}}/assets/images/training/{{training.image | default:'owasp_logo.png'}}">{{training.title}} by {{training.name}}</a></li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+	</div>
+{% endif %}
+<br />
+
+<h2>Pricing</h2>
+<p>The conference day is completely free, but registration is required!</p>
+<p>For the quality training, we ask for a participation of 50€ for one day!</p>
+<br />
+
+<p>To support the OWASP organisation, consider to become a member, it's only <strong>US$50!</strong></p>
+<p>Check out the <a href="https://owasp.org/membership/">Membership</a> page to find out more.</p>
+<br>
+<h2>What Happens at a OWASP BeNeLux Days Conference?</h2>
+<p>Never been to an OWASP BeNeLux Days Conference? <br>Here’s a bit of info to provide some background.</p>
+<ul>
+  <li>Technical talks by experts in security, devops, and cloud</li>
+  <li>Training sessions for hands on learning in top security areas</li>
+  <li>Keynotes from industry leaders</li>
+  <li>Vendor booths to promote the latest advances in security technology</li>
+  <li>A variety of other activities such as capture the flag, security tool training, and more</li>
+</ul>
+</section>
