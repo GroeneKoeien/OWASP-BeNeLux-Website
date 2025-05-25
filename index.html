@@ -1,5 +1,5 @@
 ---
-title: OWASP BeNeLux Days 2024
+title: OWASP BeNeLux Days 2025
 layout: front
 bodyclass: front
 show_program: false
@@ -7,16 +7,12 @@ show_trainings: false
 ---
 <section class="punch">
 
-<h2>The '24 conference is over, but we will wait for you next year in Belgium</h2>
+<h2></h2>
 
-<p>The slidedecks and video recordings of the talks will be made available in a few days.</p>
-
-<br />
-
+{% if site.data.conference[0].title %}
 <h2>Conference day on the 28th of November (<a href="/location/">On-site only</a>)</h2>
 <p>We are thrilled to announce the following speakers:</p>
 <p><a href="/program/conference">Full Program Schedule</a></p>
-{% if site.data.conference[0].title %}
 	{% assign speakers = site.data.conference | sort: 'time' %}
 	<div class="frontpagelist">
 	<ul>
@@ -38,9 +34,9 @@ show_trainings: false
 	</div>
 {% endif %}
 <br />
+{% if site.data.training[0].name %}
 <h2>Training day on the 29th of November (<a href="/location/">On-site only</a>)</h2>
 <p>We are proud to offer you one-day quality trainings by renowned trainers:</h3>
-{% if site.data.training[0].name %}
 	{% assign trainings = site.data.training | sort: 'time' %}
 	<div class="frontpagelist">
 	<ul>

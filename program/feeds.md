@@ -11,6 +11,7 @@ title: Relive the conference
     <td>Feed</td>
     <td>Speaker link</td>
   </thead>
+    {% if site.data.conference[0].title %}
 	{% assign speakers = site.data.conference | sort: 'time' %}
 	{% for speaker in speakers %}
 		{% if speaker.name %}
@@ -42,5 +43,6 @@ title: Relive the conference
       {% endif %}
 		{% endif %}
 	{% endfor %}
+    {% endif %}
 	</table>
 </div>
