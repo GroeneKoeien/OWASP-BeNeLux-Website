@@ -5,14 +5,14 @@ title: Sponsors FAQ
 ---
   
 ## What will be the dimensions of the booth?
-Depending on your Sponsorship package you will be provided 
-with tables of approximate dimensions of either 1mx1m or 
-2mx2m with two chairs and a power outlet in the area 
-designated to you.
+Depending on your Sponsorship package you will be provided with tables
+of approximate dimensions of either 1mx1m or 2mx2m with two chairs
+and a power outlet in the area designated to you.
 
 ## What will be the dimensions of the Banner roll up?
-Depending on your Sponsorship package you can get a banner 
-roll up of 1m X 1m or 1mx2m.
+The sponsor has to provide their own banner where a Gold Sponsor can
+place regular 1x2 banners and platinum sponsors can place larger
+banners
 
 ## Will there be electricity provided or do we have to pay for it?
 Electricity will be provided.
@@ -51,7 +51,7 @@ event.
 
 ## Can I send my equipment beforehand?
 If necessary, material can be sent beforehand, specifically 
-marked as “OWASP, BeNeLux 2024”. Please ask the OWASP member 
+marked as “OWASP, BeNeLux 2025”. Please ask the OWASP member 
 you are in touch with for more details on this.
 
 ## Are you interested in sponsoring/contributing towards the OWASP BeNeLux social event?
