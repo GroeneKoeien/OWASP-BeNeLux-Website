@@ -5,7 +5,6 @@ title: The OWASP BeNeLux Program Committee
 <!-- This one may require some updates? -->
 
 # OWASP Netherlands chapter
-* Martin Knobloch
 * Joren Poll
 * Edwin Gozeling
 * Irfaan Santoe
