@@ -43,17 +43,28 @@
     <div class="nav-bar nav-bar-open">
       <a href="/" data-discover="true"><div class="left-icon"></div></a>
       <div class="right-links">
-        <a class="link" href="/" data-discover="true">Home</a>
-        <div class="dropdown">
-          <span class="link parent-link" data-discover="true" style="font-size: 26px; font-family: inter;color: #fff;">Program</span>
-          <div class="dropdown-content">
-            <a class="link child-link" href="/program/conference" data-discover="true">Conference</a>
-          </div>
-        </div>
-        <a class="link" href="/sponsor" data-discover="true">Sponsor</a>
-        <a class="link" href="/about/team" data-discover="true">Contact Us</a>
-        <a class="link" href="/about" data-discover="true">About</a>
-        <a class="link" href="/donate" data-discover="true">Donation</a>
+        {% for menu in site.data.menus %}
+	  {% if menu.items %}
+	    <div class="dropdown">
+	    {% if menu.url %}
+	      <a class="link" href="{{ site.baseurl }}/{{ menu.url }}" data-discover="true">{{ menu.title }}</a>
+	    {% else %}
+	      <span class="link parent-link" data-discover="true" style="font-size: 26px; font-family: inter;color: #fff;">{{ menu.title }}</span>
+	      <div class="dropdown-content">
+	      {% for item in menu.items %}
+	        {% if item.url contains '://' %} 
+	        <a class="link child-link" href="{{ item.url }}" data-discover="true">{{ item.title }}</a>
+		{% else %}
+		<a class="link child-link" href="{{ site.baseurl }}/{{ item.url }}" data-discover="true">{{ item.title }}</a>
+		{% endif %}
+              {% endfor %}
+	      </div>
+	    {% endif %}
+	    </div>
+	  {% else %}
+	    <a class="link" href="{{ site.baseurl }}/{{ menu.url }}" data-discover="true">{{ menu.title }}</a>
+	  {% endif %}
+        {% endfor %}
       </div>
       <div class="navigation-opener">
         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="nav-opiner" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -62,53 +73,3 @@
       </div>
     </div>
     <div class="program">
-
-
-
-
-
-
-
-
-  <!--nav>
-    <a href="#" class="burger dropdown-toggle" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">☰</a>
-    <ul class="nav navbar-nav">
-    {% for menu in site.data.menus %}
-      {% if menu.items %}
-      <li class="dropdown">
-          {% if menu.url %}
-            {% if menu.url contains '://' %}
-              {% assign topurl = {{menu.url}} %}
-            {% else %}
-              {% assign topurl = {{ site.baseurl }}/{{menu.url}} %}
-            {% endif %}
-          {% else %}
-            {% assign topurl = "#" %}
-          {% endif %}
-        <a href="{{topurl}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{menu.title}}</a>
-          <ul class="dropdown-menu">
-          {% for item in menu.items %}
-              {% if item.url contains '://' %}
-                  <li><a href="{{item.url}}">{{item.title}}</a></li>
-              {% else %}
-                  <li><a href="{{ site.baseurl }}/{{item.url}}">{{item.title}}</a></li>
-              {% endif %}
-          {% endfor %}
-          </ul>
-      </li>
-      {% else %}
-        <li>
-          {% if menu.url contains '://' %}
-            <a href="{{menu.url}}">{{menu.title}}</a>
-          {% else %}
-            <a href="{{ site.baseurl }}/{{menu.url}}">{{menu.title}}</a>
-          {% endif %}
-        </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-  </nav-->
-  <!--a class="logo" href="{{ site.baseurl }}/">
-    <h1>OWASP BeNeLux Days Conference 2025</h1>
-    <h2>by OWASP Foundation</h2>
-  </a-->
