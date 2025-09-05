@@ -1,0 +1,176 @@
+features:
+ - name: price
+   text: Regular Price
+ - name: early-bird
+   text: Early Bird Offer (by 1st July)
+ - name: logo-chapter-homepages
+   text: Company Logo on OWASP Chapter Homepages
+ - name: logo-promo
+   text: Logo on Conference Promotional Materials
+ - name: banner
+   text: Company Banner Near Track Entrance
+ - name: chapter-invitations
+   text: Name on Chapter Invitations (Meetup and emails)
+ - name: posters-announcements
+   text: Name on Posters & Announcements
+ - name: speaking-slot
+   text: Speaking Slot (*)
+ - name: post-event-newsletter
+   text: Name in Post-Event Newsletter
+ - name: add-on
+   text: Exclusive Add-On Opportunities
+ - name: 3-year
+   text: 3-Year Commitment Discount (10%) (***)
+ - name: booth-placement
+   text: First-Pick Booth Placement (****)
+levels:
+ - name    : Platinum
+   features:
+    - name    : price
+      text    : € 4,000
+      included:
+      notes   :
+    - name    : early-bird
+      text    : € 3,600
+      included:
+      notes   :
+    - name    : logo-chapter-homepages
+      text    : 
+      included: yes
+      notes   : Belgium & Netherlands, 2025
+    - name    : logo-promo
+      text    : 
+      included: yes
+      notes   : Messages, Talks, Schedule
+    - name    : banner
+      text    : 
+      included: yes
+      notes   : 1m x 2m
+    - name    : chapter-invitations
+      text    : 
+      included: yes
+      notes   : 2025 Invitations
+    - name    : posters-announcements
+      text    : 
+      included: yes
+      notes   :
+    - name    : speaking-slot
+      text    : 
+      included: yes
+      notes   : 10 minutes
+    - name    : post-event-newsletter
+      text    : 
+      included: yes
+      notes   :
+    - name    : add-on      
+      text    : Social Event (€2,000) - mentioned in the agenda, and rollup during the social event**
+      included:
+      notes   :
+    - name    : 3-year
+      text    :
+      included: yes
+      notes   :
+    - name    : booth-placement      
+      text    :
+      included: yes
+      notes   :
+ - name    : Gold
+   features:
+    - name    : price
+      text    : € 3,000
+      included:
+      notes   :
+    - name    : early-bird
+      text    : € 2,700
+      included:
+      notes   :
+    - name    : logo-chapter-homepages
+      text    : 
+      included: yes
+      notes   : Belgium & Netherlands, 2025
+    - name    : logo-promo
+      text    : 
+      included: yes
+      notes   : Messages, Talks, Schedule
+    - name    : banner
+      text    : 
+      included: yes
+      notes   : 1m x 2m
+    - name    : chapter-invitations
+      text    : 
+      included: no
+      notes   :
+    - name    : posters-announcements
+      text    : 
+      included: yes
+      notes   :
+    - name    : speaking-slot
+      text    : 
+      included: no
+      notes   :
+    - name    : post-event-newsletter
+      text    : 
+      included: yes
+      notes   :
+    - name    : add-on      
+      text    : Coffee Break (€1,000) mentioned in the agenda, and rollup during break
+      included:
+      notes   :
+    - name    : 3-year
+      text    :
+      included: yes
+      notes   :
+    - name    : booth-placement      
+      text    :
+      included: yes
+      notes   :
+ - name    : Silver
+   features:
+    - name    : price
+      text    : € 2,000
+      included:
+      notes   :
+    - name    : early-bird
+      text    : € 1,800
+      included:
+      notes   :
+    - name    : logo-chapter-homepages
+      text    : 
+      included: yes
+      notes   : Belgium / Netherlands, 2025
+    - name    : logo-promo
+      text    : 
+      included: yes
+      notes   : Messages, Talks, Schedule
+    - name    : banner
+      text    : 
+      included: no
+      notes   :
+    - name    : chapter-invitations
+      text    : 
+      included: no
+      notes   :
+    - name    : posters-announcements
+      text    : 
+      included: no
+      notes   :
+    - name    : speaking-slot
+      text    : 
+      included: no
+      notes   :
+    - name    : post-event-newsletter
+      text    : 
+      included: yes
+      notes   :
+    - name    : add-on      
+      text    :
+      included: no
+      notes   :
+    - name    : 3-year
+      text    :
+      included: no
+      notes   :
+    - name    : booth-placement      
+      text    :
+      included: no
+      notes   :
