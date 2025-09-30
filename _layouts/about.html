@@ -1,0 +1,18 @@
+{% include header.html %}
+    </div>
+</header>
+<body>
+    <div class="about">
+        <div class="hero-mini" style="background-image: url(&quot;/assets/images/img1.jpg&quot;);">
+            <div class="left"><div class="black-layer"></div>
+            <div class="heading">{{page.title}}</div></div>
+        </div>
+        <div class="icon-title-content">
+            <div class="content">
+
+{{content | markdownify}}
+
+            </div></div></div>
+
+
+{% include footer.html %}

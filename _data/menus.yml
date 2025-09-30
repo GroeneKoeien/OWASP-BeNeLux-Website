@@ -31,7 +31,9 @@
     url  : about
 #  - title: Team
 #    url  : about/team
-  - title: Previous BeNeLux days
+  - title: Previous BeNeLux days (use url once in prod)
+    url  : about/previous-benelux-days
+  - title: Previous BeNeLux days (prod)
     url  : https://www.owaspbenelux.eu/about/previous-benelux-days
   - title: Code of Conduct
     url  : about/code-of-conduct
