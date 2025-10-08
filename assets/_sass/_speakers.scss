@@ -1,0 +1,482 @@
+@charset "UTF-8";
+
+.speakers {
+    text-align: center;
+    padding: 60px;
+    background-color: #3b4858;
+    color: #fff;
+    margin:60px 0
+}
+
+.speakers .title {
+    font-size: 80px;
+    margin-bottom:60px
+}
+
+.speakers .speaker-ar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:20px
+}
+
+.speakers .speaker-ar .speaker {
+    padding: 20px;
+    background-color:#fff
+}
+
+.speakers .speaker-ar .speaker .icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: auto auto 20px;
+    background-size: cover;
+    background-position:top
+}
+
+.speakers .speaker-ar .speaker .name {
+    margin: 20px 0;
+    font-size: 30px;
+    color:#222
+}
+
+.speakers .speaker-ar .speaker .content {
+    font-size: 20px;
+    font-family: inter;
+    font-weight: 300;
+    color:#222
+}
+
+.conference-schedule {
+    padding: 2rem;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    color:#333
+}
+
+.conference-schedule h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+    font-size:60px
+}
+
+.conference-schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow:0 2px 8px #0000000d
+}
+
+.conference-schedule table th, .conference-schedule table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-family:inter
+}
+
+.conference-schedule table th {
+    background-color: #222;
+    color:#fff
+}
+
+.conference-schedule table tr:nth-child(2n) {
+    background-color:#f3f3f3
+}
+
+.conference-schedule table tr:hover {
+    background-color:#f9eaea
+}
+
+.conference-info {
+    font-size: 40px;
+    padding: 60px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    background-color:#2a2a2a
+}
+
+.conference-info p {
+    margin:20px 0
+}
+
+.conference-info strong {
+    color:#d9534f;
+    font-style: normal;
+}
+
+.conference-info .membership-link {
+    display: inline-block;
+    margin-top: .5rem;
+    color: #0077b5;
+    font-weight: 600;
+    text-decoration:none
+}
+
+.conference-info .membership-link:hover {
+    text-decoration:underline
+}
+
+.confirmed-speakers {
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 1rem;
+    max-width: 98vw;
+    margin:0 auto
+}
+
+.confirmed-speakers * {
+    font-family:inter !important
+}
+
+.confirmed-speakers h2 {
+    font-size: 2rem;
+    color: #222;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-weight:700
+}
+
+.confirmed-speakers .speaker {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px #0000000d;
+    display:flex
+}
+
+.confirmed-speakers .speaker .left {
+    padding-right: 20px;
+    padding-top:30px
+}
+
+.confirmed-speakers .speaker .left .image-spk {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-bottom:20px
+}
+
+.confirmed-speakers .speaker h3 {
+    font-size: 30px;
+    color: #2a2a2a;
+    margin-bottom:.5rem
+}
+
+.confirmed-speakers .speaker h3 strong {
+    font-weight:600
+}
+
+.confirmed-speakers .speaker p {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 1rem;
+    font-family:inter
+}
+
+.confirmed-speakers .speaker p em {
+    color: #007acc;
+    font-style:italic
+}
+
+.confirmed-speakers .speaker .abstract, .confirmed-speakers .speaker .bio {
+    margin-top:1rem
+}
+
+.confirmed-speakers .speaker .abstract h4, .confirmed-speakers .speaker .bio h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: .4rem;
+    color:#000
+}
+
+.confirmed-speakers .speaker .abstract p, .confirmed-speakers .speaker .bio p {
+    margin-bottom: .5rem;
+    font-size: .95rem;
+    line-height:1.6
+}
+
+.confirmed-speakers .speaker footer {
+    margin-top:1rem
+}
+
+.confirmed-speakers .speaker footer a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007acc;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    font-size: .9rem;
+    transition:background-color .3s ease
+}
+
+.confirmed-speakers .speaker footer a:hover {
+    background-color:#005c99
+}
+
+.confirmed-speakers .follow-link {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    font-size: 20px;
+    font-weight:300
+}
+
+.confirmed-speakers .follow-link span {
+    display: flex;
+    font-size: 40px;
+    cursor: pointer;
+    color:#0077b5
+}
+
+.confirmed-speakers .follow-link span img {
+    height:38px
+}
+
+@media (max-width: 600px) {
+    .confirmed-speakers, .confirmed-speakers .speaker {
+        padding:1rem
+    }
+
+    .confirmed-speakers .speaker h3 {
+        font-size:1.2rem
+    }
+
+    .confirmed-speakers .speaker p {
+        font-size:.95rem
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .confirmed-speakers {
+        padding: 2rem;
+        background: #f9f9f9;
+        border-radius: 1rem;
+        max-width: 98vw;
+        margin:0 auto
+    }
+
+    .confirmed-speakers * {
+        font-family:inter !important
+    }
+
+    .confirmed-speakers h2 {
+        font-size: 2rem;
+        color: #222;
+        text-align: left;
+        margin-bottom: 2rem;
+        font-weight:700
+    }
+
+    .confirmed-speakers .speaker {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 1rem;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 2px 6px #0000000d;
+        display:grid
+    }
+
+    .confirmed-speakers .speaker .left {
+        padding-right: 20px;
+        padding-top:30px
+    }
+
+    .confirmed-speakers .speaker .left .image-spk {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-size: cover;
+        margin-bottom:20px
+    }
+
+    .confirmed-speakers .speaker h3 {
+        font-size: 30px;
+        color: #2a2a2a;
+        margin-bottom:.5rem
+    }
+
+    .confirmed-speakers .speaker h3 strong {
+        font-weight:600
+    }
+
+    .confirmed-speakers .speaker p {
+        font-size: 20px;
+        color: #444;
+        margin-bottom: 1rem;
+        font-family:inter
+    }
+
+    .confirmed-speakers .speaker p em {
+        color: #007acc;
+        font-style:italic
+    }
+
+    .confirmed-speakers .speaker .abstract, .confirmed-speakers .speaker .bio {
+        margin-top:1rem
+    }
+
+    .confirmed-speakers .speaker .abstract h4, .confirmed-speakers .speaker .bio h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: .4rem;
+        color:#000
+    }
+
+    .confirmed-speakers .speaker .abstract p, .confirmed-speakers .speaker .bio p {
+        margin-bottom: .5rem;
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align:justify
+    }
+
+    .confirmed-speakers .speaker footer {
+        margin-top:1rem
+    }
+
+    .confirmed-speakers .speaker footer a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #007acc;
+        color: #fff;
+        padding: .5rem 1rem;
+        border-radius: 5px;
+        font-size: .9rem;
+        transition:background-color .3s ease
+    }
+
+    .confirmed-speakers .speaker footer a:hover {
+        background-color:#005c99
+    }
+
+    .confirmed-speakers .follow-link {
+        display: flex;
+        gap: 10px;
+        align-items: end;
+        font-size: 20px;
+        font-weight:300
+    }
+
+    .confirmed-speakers .follow-link span {
+        display: flex;
+        font-size: 40px;
+        cursor: pointer;
+        color:#0077b5
+    }
+
+    .confirmed-speakers .follow-link span img {
+        height:38px
+    }
+}
+
+@media screen and (max-width: 700px) and(max-width: 600px) {
+    .confirmed-speakers, .confirmed-speakers .speaker {
+        padding:1rem
+    }
+
+    .confirmed-speakers .speaker h3 {
+        font-size:1.2rem
+    }
+
+    .confirmed-speakers .speaker p {
+        font-size:.95rem
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .conference-schedule {
+        padding: 0rem;
+        font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+        background: #f9f9f9;
+        color:#333
+    }
+
+    .conference-schedule h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 0rem;
+        font-size: 28px;
+        padding:10px
+    }
+
+    .conference-schedule table {
+        border-collapse: collapse;
+        background: #fff;
+        box-shadow:0 2px 8px #0000000d
+    }
+
+    .conference-schedule table th, .conference-schedule table td {
+        padding: .4rem;
+        border: 1px solid #ddd;
+        text-align: left;
+        cursor:pointer
+    }
+
+    .conference-schedule table th {
+        background-color: #222;
+        color:#fff
+    }
+
+    .conference-schedule table tr:nth-child(2n) {
+        background-color:#f3f3f3
+    }
+
+    .conference-schedule table tr:hover {
+        background-color:#f9eaea
+    }
+
+    .conference-info {
+        font-size:30px
+    }
+
+    .speakers {
+        text-align: center;
+        padding: 60px 10px;
+        background-color: #3b4858;
+        color: #fff;
+        margin:60px 0
+    }
+
+    .speakers .title {
+        font-size: 40px;
+        margin-bottom:60px
+    }
+
+    .speakers .speaker-ar {
+        display: grid;
+        grid-template-columns: auto;
+        gap:20px
+    }
+
+    .speakers .speaker-ar .speaker {
+        padding: 20px;
+        background-color:#fff
+    }
+
+    .speakers .speaker-ar .speaker .icon {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        margin: auto auto 20px;
+        background-size: cover;
+        background-position:top
+    }
+
+    .speakers .speaker-ar .speaker .name {
+        margin: 20px 0;
+        font-size: 30px;
+        color:#222
+    }
+
+    .speakers .speaker-ar .speaker .content {
+        font-size: 20px;
+        font-family: inter;
+        font-weight: 300;
+        color:#222
+    }
+}

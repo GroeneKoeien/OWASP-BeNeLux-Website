@@ -1,17 +1,16 @@
 {% include header.html %}
+<body>
+    <div class="home">
+        {% include nav.html %}
 
-		<h1 class="pagetitle">{{page.title}}</h1>
+        <div class="icon-title-content">
+            <div class="content">{{ content }}</div>
+        </div>
+
     </div>
-</header>
+
+    {% include footer.html %}
 
 
-<section class="punch">
-{% if site.data.bannermessage.text %}
-<div align=center>
-<h1 style="{{site.data.bannermessage.style}}">{{site.data.bannermessage.text}}</h1>
-</div>
-{% endif %}
-{{content}}
-</section>
-
-{% include footer.html %}
+</body>
+</html>
